@@ -1,0 +1,56 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+div {
+    background-color: #e4f9f5;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+}
+
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    /*set relative for the image element and .bottom-cloud class*/
+    position: relative;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    bottom: 300px;
+    left: 300px;
+    /*set absolute to the .top-container class so that the body doesn't affect it*/
+    position: absolute;
+
+
+}
+.profile-img{
+  border-radius: 100%;
+}
