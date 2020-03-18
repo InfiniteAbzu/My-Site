@@ -1,22 +1,61 @@
+a {
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
 body {
     font-family: 'Merriweather', serif;
     margin: 0;
     text-align: center;
 }
 
-div {
-    background-color: #e4f9f5;
+hr {
+  border-style: dotted;
+  border-top-style: none;
+  border-width: 5px;
+  color: #eaf6f6;
+  width: 3%
 }
 
 h1 {
+    color: #66BFBF;
     font-family: 'Sacramento', cursive;
-    margin: 0;
+    font-size: 5.625rem;
+    /*using percentages or em will allow text to scale to browser text size
+    settings. Pixels will override the browser.
+    100% = 16px ; so if you wanted to make it 90px then do
+    90px/16px = 562.5%  and set 560% as the font-size.
+    Also, 1em is = 16px so you could use 90/16 = 5.625em.
+    em's are dynamic like percentages */
+
+    /*Percentage and EM font-sizes are inherited which means that if an
+    em or percentage is specified in a parent tag, like body, the percent and em
+    values specified else where will be added on top of it. This might be why
+    you choose to use pixels instead of percentages or em's.
+    You can use 'rem' (root em) instead of "em" to ignore the inherited settings*/
+    /*Whereever possible use "rem" since it is the most adaptale size setting
+    because it can scale and ignore inherited settings where necessary*/
+
+    margin: 50px auto 0 auto;
 }
 
-h2,
+h2 {
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+
+}
+
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 .top-container {
     background-color: #e4f9f5;
@@ -26,11 +65,7 @@ h3 {
 }
 
 .middle-container {
-
-}
-
-.bottom-container {
-
+  margin-top: 50px;
 }
 
 .underline {
@@ -51,6 +86,28 @@ h3 {
 
 
 }
+
 .profile-img{
   border-radius: 100%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.code-img {
+  float:left;
+  margin-right: 30px;
+  width: 25%;
+
+}
+
+.person-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+
 }
