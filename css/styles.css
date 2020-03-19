@@ -137,24 +137,30 @@ h3 {
 }
 
 .btn {
-	background-color:#44c767;
-	-webkit-border-top-left-radius:28px;
-	-moz-border-radius-topleft:28px;
-	border-top-left-radius:28px;
-	-webkit-border-top-right-radius:28px;
-	-moz-border-radius-topright:28px;
-	border-top-right-radius:28px;
-	-webkit-border-bottom-right-radius:28px;
-	-moz-border-radius-bottomright:28px;
-	border-bottom-right-radius:28px;
-	-webkit-border-bottom-left-radius:28px;
-	-moz-border-radius-bottomleft:28px;
-	border-bottom-left-radius:28px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809) );
+	background:-moz-linear-gradient( center top, #89c403 5%, #77a809 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809');
+	background-color:#89c403;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
 text-indent:0;
-	border:1px solid #18ab29;
+	border:1px solid #74b807;
 	display:inline-block;
 	color:#ffffff;
-	font-family: Montserrat;
+	font-family:arial;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
@@ -163,10 +169,13 @@ height:50px;
 width:140px;
 	text-decoration:none;
 	text-align:center;
-	text-shadow:1px 1px 0px #2f6627;
+	text-shadow:0px 1px 0px #528009;
 }.btn:hover {
-	background-color:#5cbf2a;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403) );
+	background:-moz-linear-gradient( center top, #77a809 5%, #89c403 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403');
+	background-color:#77a809;
 }.btn:active {
 	position:relative;
 	top:1px;
-}
+}<
