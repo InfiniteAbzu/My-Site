@@ -1,12 +1,13 @@
 a {
   color: #11999E;
+  font-family: Montserrat;
 }
+a:hover{
+  color: #EAF6F6;
 
-p {
-  color: #40514E;
 }
-
 body {
+    color: #40514E;
     font-family: 'Merriweather', serif;
     margin: 0;
     text-align: center;
@@ -17,7 +18,8 @@ hr {
   border-top-style: none;
   border-width: 5px;
   color: #eaf6f6;
-  width: 3%
+  margin: 100px auto;
+  width: 4%
 }
 
 h1 {
@@ -47,7 +49,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  line-height: 2;
+  padding-bottom: 10px;
 
 }
 
@@ -56,7 +58,10 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.intro {
+  margin:auto;
+  width: 30%;
+}
 .top-container {
     background-color: #e4f9f5;
     padding-top: 100px;
@@ -65,7 +70,12 @@ h3 {
 }
 
 .middle-container {
-  margin-top: 50px;
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
 }
 
 .underline {
@@ -83,7 +93,6 @@ h3 {
     left: 300px;
     /*set absolute to the .top-container class so that the body doesn't affect it*/
     position: absolute;
-
 
 }
 
@@ -105,9 +114,59 @@ h3 {
 
 }
 
+.contact-me {
+  margin: 50px auto 50px auto;
+  width: 40%;
+}
+
 .person-img {
   float: right;
   margin-left: 30px;
   width: 25%;
 
+}
+
+.copy-right {
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+
+.footer-link {
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.btn {
+	background-color:#44c767;
+	-webkit-border-top-left-radius:28px;
+	-moz-border-radius-topleft:28px;
+	border-top-left-radius:28px;
+	-webkit-border-top-right-radius:28px;
+	-moz-border-radius-topright:28px;
+	border-top-right-radius:28px;
+	-webkit-border-bottom-right-radius:28px;
+	-moz-border-radius-bottomright:28px;
+	border-bottom-right-radius:28px;
+	-webkit-border-bottom-left-radius:28px;
+	-moz-border-radius-bottomleft:28px;
+	border-bottom-left-radius:28px;
+text-indent:0;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family: Montserrat;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}.btn:hover {
+	background-color:#5cbf2a;
+}.btn:active {
+	position:relative;
+	top:1px;
 }
